@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class RunMethod {
 
+
     public static void main(String[] args) {
         List<String> stringList = Lists.newArrayList("one", "two", "three");
         String reduce = stringList.stream().reduce("", (acc, element) -> acc + element);

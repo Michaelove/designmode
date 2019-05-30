@@ -7,4 +7,5 @@ package observermode;
  */
 public interface DisplayElement {
     void display();
+
 }
