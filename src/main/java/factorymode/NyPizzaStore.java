@@ -1,5 +1,7 @@
 package factorymode;
 
+import java.util.UUID;
+
 /**
  * @Author: Loong
  * @Description
@@ -8,7 +10,7 @@ package factorymode;
 public class NyPizzaStore extends PizzaStore{
 
     /**
-     * 产出纽约风味的披萨
+     * 产出纽约风味的披萨,对于子类有自己的实现
      * @param type
      * @return
      */
@@ -20,4 +22,6 @@ public class NyPizzaStore extends PizzaStore{
     public NyPizzaStore() {
 
     }
+
+
 }
